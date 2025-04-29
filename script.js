@@ -1,4 +1,3 @@
-// script.js
 const canvas = document.getElementById('gameCanvas');
 const ctx = canvas.getContext('2d');
 
@@ -31,7 +30,7 @@ window.addEventListener('keydown', e => {
 
 // Main game loop: update & draw at 10 frames per second
 setInterval(() => {
-  if (gameOver) return alert('Game Over! Your score: ' + score);
+  // if (gameOver) return alert('Game Over! Your score: ' + score);
   update();
   draw();
 }, 1000 / 10);

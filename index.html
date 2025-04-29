@@ -1,10 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<!-- meta -->
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Snake</title>
-	<link rel="stylesheet/css" href="styles.css">
+
+	<!-- custom CSS -->
+	<style>
+		body {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			font-family: sans-serif;
+			background: #000;
+			margin: 0;
+			padding: 1em;
+		}
+
+		h1 {
+			margin-bottom: 0.2em;
+		}
+
+		#gameCanvas {
+			border: 2px solid #333;
+			background: #fff;
+		}
+
+		#score {
+			margin-bottom: 0.5em;
+			font-size: 1.2em;
+		}
+	</style>
 </head>
 
 <body>
